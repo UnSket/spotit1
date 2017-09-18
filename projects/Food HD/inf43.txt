@@ -1,0 +1,8 @@
+20 115 rotate(138deg) 75 http://localhost/spotit/projects/Food%20HD/48.png
+57 43 rotate(240deg) 75 http://localhost/spotit/projects/Food%20HD/35.png
+132 82 rotate(18deg) 75 http://localhost/spotit/projects/Food%20HD/33.png
+220 58 rotate(232deg) 75 http://localhost/spotit/projects/Food%20HD/18.png
+242 151 rotate(62deg) 75 http://localhost/spotit/projects/Food%20HD/5.png
+154 13 rotate(152deg) 50 http://localhost/spotit/projects/Food%20HD/6.png
+233 240 rotate(279deg) 50 http://localhost/spotit/projects/Food%20HD/36.png
+63 177 rotate(352deg) 135 http://localhost/spotit/projects/Food%20HD/43.png

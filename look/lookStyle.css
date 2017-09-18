@@ -1,0 +1,112 @@
+@media screen{
+	.file-upload {
+     position: relative; /* Даем возможность делать позиционирование, внутри данного элемента */
+     overflow: hidden; /* Все что выходит за пределы - скрываем */
+	 padding: 2px;
+     margin:4px;
+     height: 20px; /* Задаем высоту кнопки выбора файла */ 
+     background: #7aad55;
+     border-radius: 12px;
+     color: #fff;
+     text-align: center;
+	 left:40px;
+	 width:250px;
+	}
+	.file-upload :hover {
+		 background: #a52a2a;
+	}
+	.file-upload input[type="file"]{
+		position:absolute;
+		top:0;
+		z-index:-1;
+	}
+	.file-upload label {
+		 /* Растягиваем label на всю возможную площадь блока .file-upload */
+		 display: block;
+		 position: absolute;
+		 top: 0;
+		 left: 0;
+		 width: 100%;
+		 height: 100%;
+		 cursor: pointer;
+	}
+	.file-upload span {
+		 line-height: 26px; /* Делаем вертикальное выравнивание текста, который написан на кнопке */
+	}
+	input[type="text"] {
+		background: #fff;
+		border: 0;
+		margin-bottom:4px;
+	}
+	img {
+		z-index: 1;
+	}
+	.messege{
+
+		visibility: hidden;
+
+		position: fixed;
+		
+		z-index:1000;
+	}
+
+	#commitMesesge{
+
+		position: absolute;
+
+		top: 80%;
+
+		left: 50%;
+
+		margin-left: -17px;
+
+	}
+
+	div.messege.red{
+
+		visibility: visible;
+
+		border-radius:20px;
+
+		background-color: white;
+
+		width: 350px;
+
+		height: 200px;
+
+		top: 50%;
+
+		left: 50%;
+
+		margin: -100px 0 0 -175px;
+
+		text-align: center;
+
+		box-shadow:0 0 40px 6px #D32F2F;
+
+	}
+
+	div.messege.green{
+
+		visibility: visible;
+
+		border-radius:20px;
+
+		background-color: white;
+
+		width: 350px;
+
+		height: 200px;
+
+		top: 50%;
+
+		left: 50%;
+
+		margin: -100px 0 0 -175px;
+
+		text-align: center;
+
+		box-shadow:0 0 40px 6px rgb(86, 110, 103);
+
+	}
+}

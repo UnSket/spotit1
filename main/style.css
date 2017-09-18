@@ -1,0 +1,249 @@
+	body{
+		-moz-user-select: -moz-none;
+		-o-user-select: none;
+		-khtml-user-select: none;
+		-webkit-user-select: none;
+		user-select: none;
+	}
+	
+	h1{
+		position:relative;
+		text-align:center;
+		color:white; 
+		background-color:maroon;
+		border-radius:25px;
+		font-size:200%; 
+		width:100%;
+		
+	}
+	
+	td.mainTD.plus{
+		width: 80%;
+	}
+	.mainTD {
+		width:10%;
+	  vertical-align: top;
+	  text-align: center;
+	  -webkit-transition: all 1s;
+	  -moz-transition: all 1s;
+	  -o-transition: all 1s;
+	  transition: all 1s;
+	  transition-timing-function: ease-in-out;
+	  -moz-transition-timing-function: ease-in-out;
+	  -webkit-transition-timing-function: ease-in-out;
+	  -o-transition-timing-function: ease-in-out;
+	}
+
+	#mainTable{
+		width:100%; 
+		height:600px;
+		
+		}
+	#createTable{
+		margin:0px;
+		width:100%;
+		text-align:center;
+	}
+	div.maincontent.plus{
+		opacity: 0.4;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: rgba(0,0,0,0.5 );
+        width: 100%;
+		height:100%;
+	}
+	.messege{
+		visibility: hidden;
+		position: fixed;
+	}
+	#commitMesesge{
+		position: absolute;
+		top: 80%;
+		left: 50%;
+		margin-left: -17px;
+	}
+	div.messege.red{
+		visibility: visible;
+		border-radius:20px;
+		background-color: white;
+		width: 350px;
+		height: 200px;
+		top: 50%;
+		left: 50%;
+		margin: -100px 0 0 -175px;
+		text-align: center;
+		box-shadow:0 0 40px 6px #D32F2F;
+	}
+	div.messege.green{
+		visibility: visible;
+		border-radius:20px;
+		background-color: white;
+		width: 350px;
+		height: 200px;
+		top: 50%;
+		left: 50%;
+		margin: -100px 0 0 -175px;
+		text-align: center;
+		box-shadow:0 0 40px 6px rgb(86, 110, 103);
+	}		.dialog{		visibility: hidden;		position: fixed;	}	#commitDialog{	}		#cancelDialog{			}	div.dialog.red{		visibility: visible;		border-radius:20px;		background-color: white;		width: 350px;		height: 200px;		top: 50%;		left: 50%;		margin: -100px 0 0 -175px;		text-align: center;		box-shadow:0 0 40px 6px #D32F2F;	}	div.dialog.green{		visibility: visible;		border-radius:20px;		background-color: white;		width: 350px;		height: 200px;		top: 50%;		left: 50%;		margin: -100px 0 0 -175px;		text-align: center;		box-shadow:0 0 40px 6px rgb(86, 110, 103);	}
+
+	.createTD.n1{
+		width:65%;
+	}
+	.createTD.n2{
+		border-left: 1px solid #a52a2a;
+		width:35%;
+		vertical-align:top;
+	}
+
+	.createTD p{
+		margin:4px;
+	}
+	.lookDeck{
+		width:60px;
+		height:60px;
+		position: relative;
+		vertical-align:top;
+		margin:4px;
+	}
+	.file-upload {
+     position: relative; /* Даем возможность делать позиционирование, внутри данного элемента */
+     overflow: hidden; /* Все что выходит за пределы - скрываем */
+	 left:15%;
+	 width:70%;
+     margin:4px;
+	 margin-bottom:8px;
+     height: 20px; /* Задаем высоту кнопки выбора файла */ 
+     background: steelblue;
+     border-radius: 12px;
+     color: #fff;
+     text-align: center;
+	}
+
+	.file-upload:hover {
+		 background: #a52a2a;
+	}
+	.file-upload input[type="file"]{
+		position:absolute;
+		top:0;
+		z-index:-1;
+	}
+	.file-upload.red{
+		box-shadow:0 0 10px 3px #D32F2F;
+	}
+	.file-upload label {
+		 /* Растягиваем label на всю возможную площадь блока .file-upload */
+		 display: block;
+		 position: absolute;
+		 top: 0;
+		 width: 100%;
+		 height: 100%;
+		 cursor: pointer;
+		 
+	}
+	.file-upload span {
+		 line-height: 23px; /* Делаем вертикальное выравнивание текста, который написан на кнопке */
+	}
+	#SlideMenu1 ul
+	{
+	   list-style: none;
+	   margin: 0px;
+	   padding: 0px;
+	   font-family: Arial;
+	   font-size: 13px;
+	}
+	#SlideMenu1 li
+	{
+	   cursor: pointer;
+	}
+
+	{
+	   cursor: pointer;
+	}
+	#SlideMenu1 li div#title
+	{
+		border-radius:10px;
+	   margin: 1px;
+	   padding: 2px 2px 2px 5px;
+	   background-color: teal;
+	   position: relative;
+	   left: 0;
+	   top: 0;
+	}
+	#SlideMenu1 li div#title:hover
+	{
+	   background-color: #666666;
+	   border-style: solid;
+	   border-width: 1px;
+	   border-color: #666666;
+	   margin:0;
+	}
+	
+	#SlideMenu1 li a
+	{
+	   color: #FFFFFF;
+	   font-weight: normal;
+	   text-decoration: none;
+	}
+
+	#SlideMenu1 li li
+	{
+		border-radius:10px;
+		border-color:darkcyan;
+	   cursor: auto;
+	   padding: 2px 2px 2px 5px;
+	   margin: 4px 0 4px 0;
+	   background-color: #FFFFFF;
+	   border-style: solid;
+	   border-width: 1px;
+	}
+	#SlideMenu1 li li a
+	{
+	   color: #000000;
+	   font-weight: normal;
+	   text-decoration: none;
+	}
+
+	#SlideMenu1 li li a:hover
+	{
+	   color: #666666;
+	   font-weight: normal;
+	   text-decoration: none;
+	}
+
+	#SlideMenu1 form input[type="text"],#SlideMenu1 form select, #SlideMenu1 form input[type="number"]{
+		width:70%;
+		margin:4px;
+		padding:2px;
+		text-align:center;
+	}
+
+	#Arrow{
+		font-size:30; 
+		font-weight:bolder;
+		text-align:center;
+		background-color:transparent;
+	}
+	#projectName.plus{
+		box-shadow: 0 0 0 white;
+	}
+	#projectName{
+		box-shadow:0 0 5px 2px red;
+		-webkit-transition: all 1s;
+		-moz-transition: all 1s;
+		-o-transition: all 1s;
+		transition: all 1s;
+		transition-timing-function: ease-in;
+		-moz-transition-timing-function: ease-in;
+		-webkit-transition-timing-function: ease-in;
+		-o-transition-timing-function: ease-in;
+	}
+	input[type="submit"]{
+		margin: 4px 0;
+		padding:0 4px;
+	}
+	
+	p::selection {
+		background: transparent;
+	}

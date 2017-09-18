@@ -1,0 +1,40 @@
+@media screen{
+body{
+	background:#0D47A1;
+	width:100%;
+	height:100%;
+	position: absolute;
+    top: 0;
+    left: 0;
+    overflow: auto;
+	margin:-4px;
+}
+#messege{
+	border: 5px solid #D32F2F;
+	border-radius:70px;
+	background: white;
+	width: 350px;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -100px 0 0 -175px;
+	text-align: center;
+	box-shadow:0 0 40px 20px #D32F2F;
+}
+#projectName.plus{
+	box-shadow: 0 0 0 white;
+}
+#projectName{
+	box-shadow:0 0 5px 2px red;
+	-webkit-transition: all 1s;
+	  -moz-transition: all 1s;
+	  -o-transition: all 1s;
+	  transition: all 1s;
+	  transition-timing-function: ease-in;
+	  -moz-transition-timing-function: ease-in;
+	  -webkit-transition-timing-function: ease-in;
+	  -o-transition-timing-function: ease-in;
+}
+
+}
